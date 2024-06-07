@@ -8,48 +8,33 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section id="home">
         <div class="hero">
-            <h1>Gudval Maxson</h1>
-            <p>Developer | Designer | Innovator</p>
-            <a href="#portfolio" class="cta">View My Work</a>
-        </div>
-    </section>
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Professional bio here...</p>
-    </section>
-    <section id="portfolio">
-        <h2>Portfolio</h2>
-        <div class="projects">
-            <!-- Repeat for each project -->
-            <div class="project">
-                <img src="project-image.jpg" alt="Project Image">
-                <h3>Project Title</h3>
-                <p>Brief description of the project...</p>
+            <img src="img/hero-image.jpg" alt="Gudval Maxson" class="profile-picture">
+            <div class="buttons">
+                <a href="Gudval_Maxson_Resume.pdf" class="btn" target="_blank">Resume</a>
+                <a href="mailto:gudvalmaxson@gmail.com" class="btn">Email Me</a>
+                <a href="https://github.com/imgooball" class="btn" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/gudval" class="btn" target="_blank">LinkedIn</a>
+                <a href="#" class="btn">Button 5</a>
+                <a href="#" class="btn">Button 6</a>
             </div>
         </div>
-    </section>
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email">
-            <label for="message">Message:</label>
-            <textarea id="message" name="message"></textarea>
-            <button type="submit">Send</button>
-        </form>
+    </header>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-tile">
+                <img src="img/project1.png" alt="Project 1">
+                <p>Project 1 Description</p>
+                <a href="project1.html" class="project-link">Read More</a>
+            </div>
+            <div class="project-tile">
+                <img src="project2.jpg" alt="Project 2">
+                <p>Project 2 Description</p>
+                <a href="project2.html" class="project-link">Read More</a>
+            </div>
+            <!-- Add more project tiles as needed -->
+        </div>
     </section>
     <footer>
         <p>&copy; 2024 Gudval Maxson. All rights reserved.</p>
