@@ -31,6 +31,8 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center; /* Center the content horizontally */
+    text-align: center; /* Center the text */
 }
 
 .content h1 {
@@ -47,6 +49,8 @@ header {
     display: flex;
     gap: 10px;
     margin-top: 10px; /* Adjust the position of the buttons */
+    flex-wrap: wrap; /* Allow buttons to wrap if needed */
+    justify-content: center; /* Center the buttons */
 }
 
 .btn {
@@ -173,6 +177,13 @@ html {
     .hero {
         flex-direction: column;
         align-items: center;
+    }
+
+    .buttons {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        justify-content: center;
     }
 
     .projects-grid {
