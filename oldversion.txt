@@ -1,50 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gudval Maxson Portfolio</title>
+    <meta charset="UTF-8">
+    <title>Gudval Maxson</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
-    <header>
-        <div class="hero">
-            <img src="img/pfp.png" alt="Gudval Maxson" class="profile-picture">
-            <div class="buttons">
-                <a href="Gudval_Maxson_Resume.pdf" class="btn" target="_blank"><i class="fas fa-file-alt"></i></a>
-                <a href="mailto:gudvalmaxson@gmail.com" class="btn"><i class="fas fa-envelope"></i></a>
-                <a href="https://github.com/imgooball" class="btn" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/gudval" class="btn" target="_blank"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="btn"><i class="fas fa-link"></i></a>
-                <a href="#" class="btn"><i class="fas fa-link"></i></a>
-            </div>
+    <div class="container">
+        <div class="profile">
+            <img src="img/pfp.jpg" alt="Gudval Maxson" class="profile-img">
+            <h1>Gudval Maxson</h1>
+            <p>I'm a recent graduate from Orlando, eager to hone my skills.</p>
         </div>
-    </header>
-    <section id="projects">
-        <h2>My Projects</h2>
-        <div class="projects-grid">
-            <div class="project-tile">
-                <img src="img/project1.png" alt="Project 1">
-                <p>Project 1 Description</p>
-                <a href="project1.html" class="project-link">Read More</a>
-            </div>
-            <div class="project-tile">
-                <img src="project2.jpg" alt="Project 2">
-                <p>Project 2 Description</p>
-                <a href="project2.html" class="project-link">Read More</a>
-            </div>
-            <div class="project-tile">
-                <img src="project3.jpg" alt="Project 3">
-                <p>Project 3 Description</p>
-                <a href="project3.html" class="project-link">Read More</a>
-            </div>
-            <!-- Add more project tiles as needed -->
-        </div>
-    </section>
-    <footer>
-        <p>&copy; 2024 Gudval Maxson. All rights reserved.</p>
-    </footer>
-    <script src="scripts.js"></script>
+        <nav class="links">
+            <a href="Gudval_Maxson_Resume.pdf" class="link">Resume</a>
+            <a href="https://github.com/imgooball" class="link">GitHub</a>
+            <a href="https://www.linkedin.com/in/gudval" class="link">LinkedIn</a>
+            <a href="mailto:gudvalmaxson@gmail.com" class="link">Email</a>
+            <!-- Add more links as needed -->
+        </nav>
+    </div>
 </body>
 </html>
