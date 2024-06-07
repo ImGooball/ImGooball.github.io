@@ -29,7 +29,7 @@ header {
 
 .buttons {
     display: flex;
-    flex-direction: column;
+    flex-direction: row; /* Change to row for horizontal alignment */
     gap: 10px;
 }
 
@@ -59,7 +59,7 @@ header {
 
 .projects-grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr); /* 3-column grid */
     gap: 20px;
     justify-content: center;
 }
