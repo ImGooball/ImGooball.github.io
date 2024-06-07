@@ -21,16 +21,32 @@ header {
 }
 
 .profile-picture {
-    width: 150px;
-    height: 150px;
+    width: 300px; /* Double the size */
+    height: 300px; /* Double the size */
     border-radius: 50%;
     object-fit: cover;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.bio {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
 .buttons {
     display: flex;
-    flex-direction: row;
     gap: 10px;
+    margin-top: 10px; /* Adjust the position of the buttons */
 }
 
 .btn {
@@ -48,7 +64,7 @@ header {
 }
 
 .btn:hover {
-    background-color: #005bb5;
+    background-color: #ff6600; /* More distinctive hover color */
 }
 
 #projects {
@@ -95,7 +111,7 @@ header {
 }
 
 .project-link:hover {
-    background-color: #005bb5;
+    background-color: #ff6600; /* More distinctive hover color */
 }
 
 /* Modal styles */
