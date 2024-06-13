@@ -105,7 +105,16 @@ header {
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    text-align: center; /* Center the text */
+    text-align: center;
+    transition: transform 0.3s; /* Add transition for the hover effect */
+}
+
+.project-tile:hover {
+    transform: scale(1.05); /* Grow the tile on hover */
+}
+
+.project-tile h3 {
+    margin: 10px 0;
 }
 
 .project-tile img {
@@ -113,10 +122,6 @@ header {
     height: 200px;
     object-fit: cover;
     object-position: center;
-}
-
-.project-tile p {
-    padding: 10px;
 }
 
 .project-link {
